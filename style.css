@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+.form {
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.todo {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#drop-down {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 5px;
+}
+
+.btn {
+  width: 250px;
+  height: 30px;
+  background-color: rgb(202, 199, 199);
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.my-todo {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.todo-list {
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(167, 166, 166);
+    padding: 15px 15px 0px 15px;
+    text-align: center;
+    border-radius: 5px;
+}

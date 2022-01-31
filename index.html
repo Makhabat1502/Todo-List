@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="form" >
+            <label class="todo">New Todo</label>
+            <select name="drop-down" id="drop-down">
+                <option value="bread">Купить хлеб</option>
+                <option value="children">Забрать детей с садика</option>
+                <option value="hw">Сделать ДЗ</option>
+            </select>
+            <button class="btn" type="submit">Add todo</button>
+        </form><h3 class="my-todo">My todo</h3>
+        <div class="todo-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
